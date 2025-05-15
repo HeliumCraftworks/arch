@@ -1,0 +1,58 @@
+{
+    "company": {
+        "name": "Treacy Architecture",
+        "phone": "+3531234567890",
+        "linkedin": "https://www.linkedin.com/treacyarchitecture",
+        "instagram": "https://www.instagram.com/treacyarchitecture"
+    },
+    "home": {
+        "title": "Welcome to Treacy Architecture",
+        "description": "We are a premier company dedicated to delivering innovative designs and exceptional service."
+    },
+    "services": {
+        "title": "Services",
+        "items": [
+            {
+                "icon": "bi-house",
+                "title": "Residential Design",
+                "description": "Creating beautiful and functional living spaces tailored to your lifestyle."
+            },
+            {
+                "icon": "bi-bank",
+                "title": "Commercial Design",
+                "description": "Designing efficient and attractive commercial spaces for businesses of all sizes."
+            },
+            {
+                "icon": "bi-door-open",
+                "title": "Interior Design",
+                "description": "Enhancing interior environments with aesthetic and practical solutions."
+            }
+        ]
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "items": [
+            {
+                "image": "static/images/carousel/1.jpg",
+                "title": "Residential Design",
+                "description": "Creating beautiful and functional living spaces tailored to your lifestyle."
+            },
+            {
+                "image": "static/images/carousel/2.jpg",
+                "title": "Commercial Design",
+                "description": "An innovative commercial space designed for a dynamic company."
+            },
+            {
+                "image": "static/images/carousel/3.jpg",
+                "title": "Interior Design",
+                "description": "Enhancing interior environments with aesthetic and practical solutions."
+            },
+            {
+                "image": "static/images/carousel/4.jpg",
+                "title": "Bespoke Structure",
+                "description": "A custom-designed building engineered to meet precise functional and aesthetic requirements."
+            }
+        ]
+    },
+    "formspree_id": "myzwlolb"
+}

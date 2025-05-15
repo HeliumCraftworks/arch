@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Treacy Architecture</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/static/images/icons/favicon.ico">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS -->
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" tabindex="0">
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-secondary" id="mainNav">
+                <div class="container px-3">
+                    <img src="/static/images/icons/favicon.ico" alt="Favicon" class="me-2"
+                        style="width: 32px; height: 32px;">
+                    <span class="fs-4 ps-2 fw-bold">Treacy Architecture</span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="#home" class="nav-link fw-bold p-3">Home</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link fw-bold p-3">Services</a></li>
+                            <li class="nav-item"><a href="#portfolio" class="nav-link fw-bold p-3">Portfolio</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link fw-bold p-3">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="py-1 bg-image h-100">
+        <div class="container">
+            <div style="height: 15vh;"></div>
+            <h1 class="display-4 text-light">Welcome to Treacy Architecture</h1>
+            <p class="lead text-light">We are a premier company dedicated to delivering innovative designs and
+                exceptional service.</p>
+            <div class="blank-space"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container pt-4">
+            <h2 class="display-5 text-md-start text-center">Services</h2>
+            <hr>
+            <p class="lead"></p>
+            <div id="services-container" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 py-5 text-center">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container pt-4">
+            <h2 class="display-5 text-md-start text-center">Portfolio</h2>
+            <hr>
+            <p class="lead text-md-start text-center">Take a look at some of our recent projects.</p>
+            <!-- Carousel -->
+            <div id="carouselSildes" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselSildes" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselSildes" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselSildes" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselSildes" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <!-- Slides -->
+                <div id="portfolio-container" class="carousel-inner">
+                </div>
+                <!-- Left and Right controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSildes"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselSildes"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container pt-4">
+            <h2 class="display-5 text-md-start text-center">Contact Us</h2>
+            <hr>
+            <p class="lead text-md-start text-center">Have a question or want to discuss a project? Reach out to us!</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-5 mt-4 d-flex align-items-center"><i
+                                class="feature-icon bg-primary bg-gradient bi bi-telephone h2 mb-0 me-4">
+                            </i>Phone:&nbsp; <span id="phone-number"></span></li>
+                        <li class="my-5 d-flex align-items-center">
+                            <i class="feature-icon bg-primary bg-gradient bi bi-linkedin h2 mb-0 me-4"></i>
+                            <a id="linkedin-anchor" href="https://www.linkedin.com/" target="_blank"
+                                rel="noopener noreferrer">LinkedIn</a>
+                        </li>
+                        <li class="my-5 d-flex align-items-center"><i id="instagram-link"
+                                class="feature-icon bg-primary bg-gradient bi bi-instagram h2 mb-0 me-4"></i><a
+                                id="instagram-anchor" href="https://www.instagram.com/" target="_blank"
+                                rel="noopener noreferrer">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form action="placeholder" method="post" id="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" autocomplete="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" autocomplete="email"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" autocomplete="off"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                        <div class="overlay">
+                            <div class="successful">
+                                <i class=""></i>
+                                <h3>Form Submitted</h3>
+                                <p>
+                                    Thank you for contacting us, we will get back to you shortly.
+                                </p>
+                            </div>
+                        </div>
+                        <input name="subject" type="hidden" value="New contact submission from: {{ name }}">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-body-tertiary">
+        <div class="container d-flex justify-content-between align-items-center w-100">
+            <div class="text-start">
+                <p class="mb-2 fs-6 fw-bold d-none d-sm-block"><span id="footer-company-name">My
+                        Company</span> &copy; 2025.</p>
+            </div>
+            <div class="text-end">
+                <p class="mb-2 fs-6">By: <a href="https://HeliumCraftworks.github.io" target="_blank"
+                        rel="noopener noreferrer" class="text-decoration-none fw-semibold">Helium Craftworks</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <template id="service-template">
+        <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+                <i class="bi" style="font-size: 2rem; color: white;"></i>
+            </div>
+            <h3 class="service-title"></h3>
+            <p class="service-description"></p>
+        </div>
+    </template>
+
+    <template id="portfolio-template">
+        <div class="carousel-item">
+            <img class="portfolio-image d-block w-100" alt="Project">
+            <div class="carousel-caption bg-dark bg-opacity-75">
+                <h3 class="portfolio-title"></h3>
+                <p class="portfolio-description d-none d-sm-block"></p>
+            </div>
+        </div>
+    </template>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Custom Javascript -->
+    <script src="/static/load_content.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
